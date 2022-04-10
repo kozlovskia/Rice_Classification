@@ -3,7 +3,7 @@
 ###  Environment
 Once in virtual environment
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Training
