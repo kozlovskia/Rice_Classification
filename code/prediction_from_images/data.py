@@ -4,7 +4,8 @@ from PIL import Image
 from torchvision import transforms
 from torch.utils.data import Dataset
 
-INPUT_SIZE = (224, 224)
+# INPUT_SIZE = (224, 224)
+INPUT_SIZE = (96, 96)
 
 
 class RiceDataset(Dataset):  # supposed to run from code directory

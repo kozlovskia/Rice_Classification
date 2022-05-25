@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:21.10-py3
+FROM nvcr.io/nvidia/pytorch:22.04-py3
 ARG DEBIAN_FRONTEND=noninteractive
 WORKDIR /rice_classification/
 COPY requirements.txt .
